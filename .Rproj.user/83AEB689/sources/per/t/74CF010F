@@ -1,0 +1,26 @@
+{
+    "id": "74CF010F",
+    "path": "~/courses/stat600f23/Lectures/4_SubgradientsCoordDescentCrossValidation/LassoExamples/Example1_Solutions.R",
+    "project_path": "Example1_Solutions.R",
+    "type": "r_source",
+    "hash": "1517423468",
+    "contents": "",
+    "dirty": false,
+    "created": 1695309009111.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "33,18",
+        "scrollLine": "29"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1695743306,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1695743306898,
+    "read_only": false,
+    "read_only_alternatives": []
+}

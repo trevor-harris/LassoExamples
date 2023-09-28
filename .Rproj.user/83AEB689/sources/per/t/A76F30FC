@@ -1,0 +1,26 @@
+{
+    "id": "A76F30FC",
+    "path": "~/courses/stat600f23/Lectures/4_SubgradientsCoordDescentCrossValidation/LassoExamples/CVforRidge_Starter (1).R",
+    "project_path": "CVforRidge_Starter (1).R",
+    "type": "r_source",
+    "hash": "2696861454",
+    "contents": "",
+    "dirty": false,
+    "created": 1695732737535.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "38,29",
+        "scrollLine": "30"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1695743292,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1695743292886,
+    "read_only": false,
+    "read_only_alternatives": []
+}

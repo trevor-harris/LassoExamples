@@ -1,0 +1,29 @@
+# Coordinate descent for LASSO (X already scaled, no intercept, p = 2 case)
+coordinateLasso2 <- function(X, Y, beta_start, lambda, niter = 50){
+  
+  # Store objective values across iterations
+  fobj_vec = c(lassoobj(X, Y, beta = beta_start, lambda), rep(0, niter))
+  
+  # Get sample size
+  n = length(Y)
+  p = length(beta_start)
+  
+  # Current beta is the starting point
+  beta = beta_start
+  
+  # [ToDo] Fill in the iterations for coordinate-descent
+  for (i in 2:(niter + 1)){
+    # [ToDo] Update of beta1
+    
+    for (j in 1:p) {
+      a = crossprod(X[ , j], Y - X[ , -j] * beta[-j])/n
+      beta[j] = softthresh(a, lambda)
+    }
+  
+    # [ToDo] Calculate updated value of f(beta)
+    fobj_vec[i] = lassoobj(X, Y, beta, lambda)
+  }
+  
+  # Return final beta after niter iterations, and the whole vector of objective values
+  return(list(beta = beta, fobj_vec = fobj_vec))
+}

@@ -1,0 +1,9 @@
+{
+    "sortOrder": [
+        {
+            "columnIndex": 2,
+            "ascending": true
+        }
+    ],
+    "path": "~/courses/stat600f23/Lectures/4_SubgradientsCoordDescentCrossValidation/LassoExamples"
+}

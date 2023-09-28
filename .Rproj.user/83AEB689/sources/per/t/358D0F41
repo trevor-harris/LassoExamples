@@ -1,0 +1,26 @@
+{
+    "id": "358D0F41",
+    "path": "~/courses/stat600f23/Lectures/4_SubgradientsCoordDescentCrossValidation/LassoExamples/LassoFunctions.R",
+    "project_path": "LassoFunctions.R",
+    "type": "r_source",
+    "hash": "237642450",
+    "contents": "",
+    "dirty": false,
+    "created": 1695730190699.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "40,2",
+        "scrollLine": "31"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1692457138,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1692457138,
+    "read_only": false,
+    "read_only_alternatives": []
+}
